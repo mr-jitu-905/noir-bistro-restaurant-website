@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu | Noir Bistro - Seasonal Fine Dining & Epicurean Craft</title>
+  <meta name="description" content="Explore Noir Bistro's seasonal menu featuring curated Starters, Main Courses, Desserts, and Sommelier-paired Beverages crafted with peak artisanal ingredients.">
+  <meta name="keywords" content="Noir Bistro menu, fine dining menu, restaurant menu, wine pairing, tasting menu, starters, main courses, desserts, beverages">
+  <meta name="author" content="Mushfiqur Rahman Jitu">
+  <meta property="og:title" content="Our Menu | Noir Bistro">
+  <meta property="og:description" content="Seasonal Flavors, Thoughtfully Crafted. Explore Noir Bistro's epicurean menu.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="brand-monogram">NB</span>
+          <span>Noir Bistro</span>
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNoir" aria-controls="navbarNoir" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNoir">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="menu.html" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark-custom" aria-labelledby="menuDropdown">
+                <li><a class="dropdown-item dropdown-item-custom" href="menu.html">Full Menu</a></li>
+                <li><hr class="dropdown-divider border-secondary opacity-25"></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="starters.html">Starters</a></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="main-courses.html">Main Courses</a></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="desserts.html">Desserts</a></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="beverages.html">Beverages</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservations.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center">
+            <a href="reservations.html" class="btn btn-outline-gold d-none d-lg-inline-flex">
+              <i class="far fa-calendar-check"></i> Book Table
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero / Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-hero-tag">Culinary Repertoire</span>
+        <h1 class="page-hero-title">Our Menu</h1>
+        <p class="page-hero-subtitle">
+          Seasonal Flavors, Thoughtfully Crafted &mdash; An invitation to savor hyper-seasonal creations, master culinary techniques, and expressive wine pairings.
+        </p>
+      </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="menu-intro-section">
+      <div class="container">
+        <span class="section-tag">The Culinary Philosophy</span>
+        <h2 class="section-title">An Exploration of Seasons & Terroir</h2>
+        <div class="section-divider center"></div>
+        <p class="intro-lead-text">
+          At Noir Bistro, our menu evolves alongside nature's rhythms. We source rare heritage grains, dry-aged prime cuts, day-boat seafood, and organic botanicals to present dishes that are at once deeply comforting and profoundly inventive.
+        </p>
+      </div>
+    </section>
+
+    <!-- Category Navigation Gateways -->
+    <section class="category-nav-section">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Category 1: Starters -->
+          <div class="col-lg-3 col-md-6">
+            <a href="starters.html" class="category-card">
+              <img src="https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=700&q=80" alt="Starters Category">
+              <div class="category-overlay">
+                <span class="category-badge">First Act</span>
+                <h3 class="category-title">Starters</h3>
+                <p class="category-desc">Delicate crudos, tartares & seasonal veloutés</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Category 2: Main Courses -->
+          <div class="col-lg-3 col-md-6">
+            <a href="main-courses.html" class="category-card">
+              <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=700&q=80" alt="Main Courses Category">
+              <div class="category-overlay">
+                <span class="category-badge">The Heart</span>
+                <h3 class="category-title">Main Courses</h3>
+                <p class="category-desc">Dry-aged prime meats, wild catch & risottos</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Category 3: Desserts -->
+          <div class="col-lg-3 col-md-6">
+            <a href="desserts.html" class="category-card">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80" alt="Desserts Category">
+              <div class="category-overlay">
+                <span class="category-badge">Final Notes</span>
+                <h3 class="category-title">Desserts</h3>
+                <p class="category-desc">Artisanal soufflés, opera cakes & cheese vault</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Category 4: Beverages -->
+          <div class="col-lg-3 col-md-6">
+            <a href="beverages.html" class="category-card">
+              <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=700&q=80" alt="Beverages Category">
+              <div class="category-overlay">
+                <span class="category-badge">Curated Pours</span>
+                <h3 class="category-title">Beverages</h3>
+                <p class="category-desc">Grand Cru vintages, smoked cocktails & mocktails</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Highlights Grid -->
+    <section class="featured-menu-section">
+      <div class="container">
+        <div class="text-center max-w-700 mx-auto mb-5">
+          <span class="section-tag">Chef's Highlights</span>
+          <h2 class="section-title">Celebrated Signatures</h2>
+          <div class="section-divider center"></div>
+          <p class="text-muted">
+            A curated cross-section from across our kitchen ateliers.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Feature 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">Starter</span>
+                <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80" alt="Hokkaido Scallop Crudo">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Hokkaido Scallop Crudo</h3>
+                  <span class="dish-price">$28</span>
+                </div>
+                <p class="dish-desc">
+                  Thinly sliced day-boat scallops, blood orange reduction, finger lime pearls, and pickled sea fennel.
+                </p>
+                <a href="starters.html" class="dish-link">
+                  <span>Explore Starters</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">Main Course</span>
+                <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="Chilean Sea Bass">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Chilean Sea Bass</h3>
+                  <span class="dish-price">$62</span>
+                </div>
+                <p class="dish-desc">
+                  Miso-glazed wild sea bass, baby bok choy, lemongrass dashi broth, and crispy lotus root crisp.
+                </p>
+                <a href="main-courses.html" class="dish-link">
+                  <span>Explore Mains</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">Dessert</span>
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" alt="Gold Dusted Opera Gateau">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Gold-Dusted Opera</h3>
+                  <span class="dish-price">$22</span>
+                </div>
+                <p class="dish-desc">
+                  Almond sponge cake, espresso buttercream, dark chocolate ganache, finished with 24k edible gold leaf.
+                </p>
+                <a href="desserts.html" class="dish-link">
+                  <span>Explore Desserts</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tasting Menu Experience -->
+    <section class="tasting-menu-section">
+      <div class="container">
+        <div class="tasting-box">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <span class="section-tag">The Degustation</span>
+              <h2 class="section-title mb-3">Chef's 7-Course Tasting Journey</h2>
+              <div class="section-divider"></div>
+              <p class="text-muted mb-4">
+                An intimate culinary voyage curated daily by Executive Chef Julian Moreau showcasing our rarest seasonal arrivals with bespoke wine pairings by Master Sommelier Marcus Vance.
+              </p>
+              <div class="d-flex align-items-baseline gap-3 mb-4">
+                <span class="fs-2 text-gold fw-bold font-serif">$185</span>
+                <span class="text-muted small">/ guest &bull; Sommelier Pairing +$110</span>
+              </div>
+              <a href="reservations.html" class="btn btn-gold">
+                <i class="far fa-calendar-check"></i> Reserve Degustation
+              </a>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="tasting-courses">
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">I. Amuse-Bouche &bull; Osetra Caviar</h5>
+                    <p class="tasting-course-desc">Buckwheat blini, cultured crème fraîche, Meyer lemon zest</p>
+                  </div>
+                </div>
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">II. Scallop Crudo &bull; Finger Lime</h5>
+                    <p class="tasting-course-desc">Blood orange extraction, wild fennel pollen, white truffle oil</p>
+                  </div>
+                </div>
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">III. Duck Foie Gras &bull; Brioche Feuilletée</h5>
+                    <p class="tasting-course-desc">Spiced mission fig compote, port wine reduction</p>
+                  </div>
+                </div>
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">IV. Glazed Chilean Sea Bass &bull; Lemongrass Dashi</h5>
+                    <p class="tasting-course-desc">Baby bok choy, maitake mushroom, ginger essence</p>
+                  </div>
+                </div>
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">V. 45-Day Dry-Aged Prime Ribeye &bull; Bone Marrow</h5>
+                    <p class="tasting-course-desc">Smoked parsnip mousseline, charred shallot, black truffle jus</p>
+                  </div>
+                </div>
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">VI. Aged Comté Reserve &bull; Honeycomb</h5>
+                    <p class="tasting-course-desc">Walnut crisp, lavender infused wildflower honey</p>
+                  </div>
+                </div>
+                <div class="tasting-course-item">
+                  <div>
+                    <h5 class="tasting-course-title">VII. Valrhona Dark Chocolate Soufflé &bull; Bourbon Gelato</h5>
+                    <p class="tasting-course-desc">Gold leaf, cacao nib tuile, Madagascar vanilla</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <span class="section-tag">Reserve Your Experience</span>
+          <h2>Dietary Requests & Special Occasions</h2>
+          <div class="section-divider center"></div>
+          <p>
+            We take immense pride in tailoring our culinary preparations to accommodate all dietary preferences and allergies with advance notice.
+          </p>
+          <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a href="reservations.html" class="btn btn-gold">
+              <i class="far fa-calendar-check"></i> Reserve a Table
+            </a>
+            <a href="contact.html" class="btn btn-outline-gold">
+              <i class="far fa-comment-dots"></i> Inquire About Dietary Needs
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Left Column: Brand & Story -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <span class="brand-monogram">NB</span>
+            <span>Noir Bistro</span>
+          </div>
+          <p class="footer-tagline">Fine Dining &bull; Seasonal Cuisine &bull; Crafted Experiences</p>
+          <p class="footer-desc">
+            Noir Bistro is an ode to culinary mastery and refined modern elegance. Indulge in hyper-seasonal gastronomy, rare vintages, and timeless hospitality.
+          </p>
+        </div>
+
+        <!-- Middle Column: Quick Links -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <div class="row">
+            <div class="col-6">
+              <ul class="footer-links">
+                <li><a href="about.html"><i class="fas fa-chevron-right small"></i> About</a></li>
+                <li><a href="menu.html"><i class="fas fa-chevron-right small"></i> Menu</a></li>
+                <li><a href="reservations.html"><i class="fas fa-chevron-right small"></i> Reservations</a></li>
+                <li><a href="gallery.html"><i class="fas fa-chevron-right small"></i> Gallery</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="footer-links">
+                <li><a href="events.html"><i class="fas fa-chevron-right small"></i> Events</a></li>
+                <li><a href="contact.html"><i class="fas fa-chevron-right small"></i> Contact</a></li>
+                <li><a href="privacy-policy.html"><i class="fas fa-chevron-right small"></i> Privacy Policy</a></li>
+                <li><a href="sitemap.html"><i class="fas fa-chevron-right small"></i> Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact & Social -->
+        <div class="col-lg-4 col-md-12">
+          <h4 class="footer-heading">Get in Touch</h4>
+          <div class="footer-contact-item">
+            <i class="far fa-envelope"></i>
+            <a href="mailto:mushfiqurrahmanjitu905@gmail.com">mushfiqurrahmanjitu905@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+8801979788761">+8801979788761</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/8801979788761" target="_blank" rel="noopener noreferrer">WhatsApp: +8801979788761</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61593615472090" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/mr.jitu.905/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.threads.com/@mr.jitu.905" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Threads">
+              <i class="fab fa-threads"></i>
+            </a>
+            <a href="https://x.com/mrjitu905" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mrjitu905/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/mr-jitu-905" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; 2026 Noir Bistro. All rights reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            This website is developed by <a href="https://jitu.gitlinkitsolutions.com/" target="_blank" rel="noopener noreferrer">Mushfiqur Rahman Jitu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

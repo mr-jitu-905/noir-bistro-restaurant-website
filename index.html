@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noir Bistro | Fine Dining & Luxury Culinary Experience</title>
+  <meta name="description" content="Welcome to Noir Bistro. Discover fine dining, seasonal gastronomy, master wine pairings, and memorable private dining experiences in a luxurious modern ambiance.">
+  <meta name="keywords" content="Noir Bistro, fine dining, luxury restaurant, seasonal cuisine, culinary excellence, wine pairing, private events, reservations">
+  <meta name="author" content="Mushfiqur Rahman Jitu">
+  <meta property="og:title" content="Noir Bistro | Fine Dining & Luxury Culinary Experience">
+  <meta property="og:description" content="Fine Dining • Seasonal Cuisine • Crafted Experiences at Noir Bistro.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="brand-monogram">NB</span>
+          <span>Noir Bistro</span>
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNoir" aria-controls="navbarNoir" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNoir">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="menu.html" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark-custom" aria-labelledby="menuDropdown">
+                <li><a class="dropdown-item dropdown-item-custom" href="menu.html">Full Menu</a></li>
+                <li><hr class="dropdown-divider border-secondary opacity-25"></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="starters.html">Starters</a></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="main-courses.html">Main Courses</a></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="desserts.html">Desserts</a></li>
+                <li><a class="dropdown-item dropdown-item-custom" href="beverages.html">Beverages</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservations.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center">
+            <a href="reservations.html" class="btn btn-outline-gold d-none d-lg-inline-flex">
+              <i class="far fa-calendar-check"></i> Book Table
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <span class="hero-subtitle">Fine Dining &bull; Seasonal Cuisine &bull; Crafted Experiences</span>
+              <h1 class="hero-title">Noir Bistro <br><span>Culinary Artistry</span></h1>
+              <p class="hero-desc">
+                Immerse yourself in a symphonic dining journey where exceptional terroir, avant-garde culinary techniques, and intimate ambiance unite.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="reservations.html" class="btn btn-gold">
+                  <i class="far fa-calendar-alt"></i> Reserve a Table
+                </a>
+                <a href="menu.html" class="btn btn-outline-gold">
+                  <i class="fas fa-utensils"></i> View Menu
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-img-container">
+              <div class="hero-img-box">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80" alt="Masterfully prepared signature steak at Noir Bistro">
+              </div>
+              <div class="hero-badge-experience">
+                <div class="exp-number">14+</div>
+                <div class="exp-label">Years of Culinary Passion</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-lg-2">
+            <span class="section-tag">Our Story</span>
+            <h2 class="section-title">Where Passion Meets Sensory Perfection</h2>
+            <div class="section-divider"></div>
+            <p class="text-muted mb-4">
+              Founded on the belief that dining is an evocative art form, Noir Bistro sources rare heritage ingredients from regenerative producers to craft dishes that stimulate memory, emotion, and exquisite taste.
+            </p>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Seasonal & Artisanal Sourcing</h4>
+                <p>Collaborating with local biodynamic growers and sustainable fisheries to ensure every plate honors the seasons.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Mastery of Craft</h4>
+                <p>Rooted in classical culinary foundations elevated through contemporary refinement and precision.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <i class="fas fa-wine-glass-alt"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Curated Atmosphere</h4>
+                <p>An intimate haven draped in warm noir tones, bespoke jazz melodies, and impeccable hospitality.</p>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a href="about.html" class="btn btn-outline-gold">
+                <span>Discover Our Heritage</span> <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-lg-1">
+            <div class="about-img-frame">
+              <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=80" alt="Executive Chef plating an artistic dish at Noir Bistro">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Dishes / Menu Teaser Section -->
+    <section class="signature-dishes">
+      <div class="container">
+        <div class="text-center max-w-700 mx-auto mb-5">
+          <span class="section-tag">Epicurean Selections</span>
+          <h2 class="section-title">Signature Dishes</h2>
+          <div class="section-divider center"></div>
+          <p class="text-muted">
+            A preview of our celebrated creations crafted with meticulous detail and served with passion.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Dish 1: Starter -->
+          <div class="col-lg-3 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">Signature Starter</span>
+                <img src="https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80" alt="Truffle Infused Arancini">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Truffle Arancini</h3>
+                  <span class="dish-price">$24</span>
+                </div>
+                <p class="dish-desc">
+                  Crispy saffron carnaroli risotto spheres, black winter truffle essence, and aged Parmigiano Reggiano fondue.
+                </p>
+                <a href="starters.html" class="dish-link">
+                  <span>View Starters</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dish 2: Main -->
+          <div class="col-lg-3 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">Chef's Main</span>
+                <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80" alt="Dry Aged Prime Ribeye">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Dry-Aged Ribeye</h3>
+                  <span class="dish-price">$68</span>
+                </div>
+                <p class="dish-desc">
+                  45-day dry-aged prime beef, bone marrow jus, roasted shallot butter, and smoked parsnip mousseline.
+                </p>
+                <a href="main-courses.html" class="dish-link">
+                  <span>View Mains</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dish 3: Dessert -->
+          <div class="col-lg-3 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">Featured Dessert</span>
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" alt="Valrhona Dark Chocolate Souffle">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Valrhona Soufflé</h3>
+                  <span class="dish-price">$20</span>
+                </div>
+                <p class="dish-desc">
+                  Molten 70% Guanaja chocolate soufflé paired with Madagascar bourbon vanilla bean gelato and gold leaf.
+                </p>
+                <a href="desserts.html" class="dish-link">
+                  <span>View Desserts</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dish 4: Beverage -->
+          <div class="col-lg-3 col-md-6">
+            <div class="dish-card">
+              <div class="dish-img-wrap">
+                <span class="dish-tag">House Cocktail</span>
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80" alt="Smoked Noir Old Fashioned">
+              </div>
+              <div class="dish-body">
+                <div class="dish-header">
+                  <h3 class="dish-title">Smoked Noir</h3>
+                  <span class="dish-price">$22</span>
+                </div>
+                <p class="dish-desc">
+                  Single barrel rye, charred orange peel, Madagascar vanilla demerara, infused under aromatic hickory smoke.
+                </p>
+                <a href="beverages.html" class="dish-link">
+                  <span>View Beverages</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="menu.html" class="btn btn-gold">
+            <i class="fas fa-book-open"></i> Explore Complete Menu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section class="gallery-preview">
+      <div class="container">
+        <div class="row align-items-end justify-content-between mb-5">
+          <div class="col-lg-7">
+            <span class="section-tag">Visual Journey</span>
+            <h2 class="section-title">Atmosphere & Moments</h2>
+            <div class="section-divider"></div>
+            <p class="text-muted mb-0">
+              Immerse in the subtle elegance, delicate craftsmanship, and vibrant evening memories of Noir Bistro.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+            <a href="gallery.html" class="btn btn-outline-gold">
+              <span>View Full Gallery</span> <i class="fas fa-images"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="gallery-grid-item">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Main Dining Room Ambiance">
+              <div class="gallery-overlay">
+                <h5>Main Dining Salon</h5>
+                <span>Refined Ambiance</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="gallery-grid-item">
+              <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80" alt="Culinary Plating Details">
+              <div class="gallery-overlay">
+                <h5>Scallop Crudo</h5>
+                <span>Culinary Art</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="gallery-grid-item">
+              <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80" alt="Sommelier Cellar Selection">
+              <div class="gallery-overlay">
+                <h5>Grand Cru Cellar</h5>
+                <span>Curated Vintages</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="gallery-grid-item">
+              <img src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?auto=format&fit=crop&w=600&q=80" alt="Private Dining Lounge">
+              <div class="gallery-overlay">
+                <h5>Private Salon</h5>
+                <span>Exclusive Soirées</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Teaser Section -->
+    <section class="events-teaser">
+      <div class="container">
+        <div class="event-banner-card">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <span class="section-tag">Exclusive Gatherings</span>
+              <h2 class="section-title mb-3">Private Events & Masterclass Experiences</h2>
+              <p class="text-muted mb-4">
+                Whether celebrating milestones, hosting corporate galas, or reserving our private wine salon for an intimate degustation, Noir Bistro provides bespoke menus and personalized service tailored to perfection.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="events.html" class="btn btn-gold">
+                  <i class="fas fa-glass-cheers"></i> Explore Private Events
+                </a>
+                <a href="contact.html" class="btn btn-outline-gold">
+                  <i class="far fa-envelope"></i> Inquire Directly
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="p-4 rounded border border-secondary border-opacity-25 bg-dark">
+                <h4 class="text-gold mb-2">Bespoke Inclusions</h4>
+                <ul class="list-unstyled text-muted small text-start mb-0">
+                  <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> Tailored multi-course menus</li>
+                  <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> Dedicated Master Sommelier</li>
+                  <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> State-of-the-art acoustics</li>
+                  <li><i class="fas fa-check text-gold me-2"></i> Private sommelier room access</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats / Highlights Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3">
+            <div class="stat-box">
+              <div class="stat-number" data-count="14" data-suffix="+">0</div>
+              <div class="stat-label">Years of Excellence</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-box">
+              <div class="stat-number" data-count="48" data-suffix="+">0</div>
+              <div class="stat-label">Signature Dishes</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-box">
+              <div class="stat-number" data-count="120" data-suffix="k+">0</div>
+              <div class="stat-label">Guests Welcomed</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-box">
+              <div class="stat-number" data-count="350" data-suffix="+">0</div>
+              <div class="stat-label">Private Events Hosted</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <span class="section-tag">An Exceptional Evening</span>
+          <h2>Ready for an Unforgettable Culinary Encounter?</h2>
+          <div class="section-divider center"></div>
+          <p>
+            Join us at Noir Bistro where every plate is a story and every evening is an enduring celebration of elegance. We recommend reserving in advance.
+          </p>
+          <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a href="reservations.html" class="btn btn-gold">
+              <i class="far fa-calendar-check"></i> Reserve Your Table
+            </a>
+            <a href="contact.html" class="btn btn-burgundy">
+              <i class="fas fa-map-marker-alt"></i> Find Our Location
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Left Column: Brand & Story -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <span class="brand-monogram">NB</span>
+            <span>Noir Bistro</span>
+          </div>
+          <p class="footer-tagline">Fine Dining &bull; Seasonal Cuisine &bull; Crafted Experiences</p>
+          <p class="footer-desc">
+            Noir Bistro is an ode to culinary mastery and refined modern elegance. Indulge in hyper-seasonal gastronomy, rare vintages, and timeless hospitality.
+          </p>
+        </div>
+
+        <!-- Middle Column: Quick Links -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <div class="row">
+            <div class="col-6">
+              <ul class="footer-links">
+                <li><a href="about.html"><i class="fas fa-chevron-right small"></i> About</a></li>
+                <li><a href="menu.html"><i class="fas fa-chevron-right small"></i> Menu</a></li>
+                <li><a href="reservations.html"><i class="fas fa-chevron-right small"></i> Reservations</a></li>
+                <li><a href="gallery.html"><i class="fas fa-chevron-right small"></i> Gallery</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="footer-links">
+                <li><a href="events.html"><i class="fas fa-chevron-right small"></i> Events</a></li>
+                <li><a href="contact.html"><i class="fas fa-chevron-right small"></i> Contact</a></li>
+                <li><a href="privacy-policy.html"><i class="fas fa-chevron-right small"></i> Privacy Policy</a></li>
+                <li><a href="sitemap.html"><i class="fas fa-chevron-right small"></i> Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact & Social -->
+        <div class="col-lg-4 col-md-12">
+          <h4 class="footer-heading">Get in Touch</h4>
+          <div class="footer-contact-item">
+            <i class="far fa-envelope"></i>
+            <a href="mailto:mushfiqurrahmanjitu905@gmail.com">mushfiqurrahmanjitu905@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+8801979788761">+8801979788761</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/8801979788761" target="_blank" rel="noopener noreferrer">WhatsApp: +8801979788761</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61593615472090" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/mr.jitu.905/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.threads.com/@mr.jitu.905" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Threads">
+              <i class="fab fa-threads"></i>
+            </a>
+            <a href="https://x.com/mrjitu905" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mrjitu905/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/mr-jitu-905" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; 2026 Noir Bistro. All rights reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            This website is developed by <a href="https://jitu.gitlinkitsolutions.com/" target="_blank" rel="noopener noreferrer">Mushfiqur Rahman Jitu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
